@@ -1,0 +1,26 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Parent (Father)>
+<!ATTLIST Parent
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Father (FirstName,LastName,ContactNo,Email)>
+<!ATTLIST Father
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT FirstName (#PCDATA)>
+<!ATTLIST FirstName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LastName (#PCDATA)>
+<!ATTLIST LastName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ContactNo (#PCDATA)>
+<!ATTLIST ContactNo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Email (#PCDATA)>
+<!ATTLIST Email
+  xmlns CDATA #FIXED ''>
